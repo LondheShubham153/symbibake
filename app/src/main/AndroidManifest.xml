@@ -50,7 +50,9 @@
         <activity
             android:name=".TartActivity"
             android:label="@string/title_activity_tart"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BuyActivity" />
+        <activity android:name=".CheckoutActivity"></activity>
     </application>
 
 </manifest>
