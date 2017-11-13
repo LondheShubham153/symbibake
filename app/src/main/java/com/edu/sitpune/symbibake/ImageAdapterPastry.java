@@ -1,4 +1,4 @@
-package com.example.shubham.symbibake;
+package com.edu.sitpune.symbibake;
 
 /**
  * Created by shubham on 13/11/17.
@@ -11,11 +11,11 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class ImageAdapterCookie extends BaseAdapter {
+public class ImageAdapterPastry extends BaseAdapter {
     private Context mContext;
 
     // Constructor
-    public ImageAdapterCookie(Context c) {
+    public ImageAdapterPastry(Context c) {
         mContext = c;
     }
 

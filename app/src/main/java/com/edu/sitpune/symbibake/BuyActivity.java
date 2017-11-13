@@ -1,13 +1,13 @@
-package com.example.shubham.symbibake;
+package com.edu.sitpune.symbibake;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class CheckoutActivity extends AppCompatActivity {
+public class BuyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkout);
+        setContentView(R.layout.activity_buy);
     }
 }

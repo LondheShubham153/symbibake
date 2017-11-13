@@ -1,4 +1,4 @@
-package com.example.shubham.symbibake;
+package com.edu.sitpune.symbibake;
 
 /**
  * Created by shubham on 13/11/17.

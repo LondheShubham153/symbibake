@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.shubham.symbibake.PastryActivity"
+    tools:context="com.edu.sitpune.symbibake.PastryActivity"
     tools:showIn="@layout/activity_pastry">
 
     <TextView

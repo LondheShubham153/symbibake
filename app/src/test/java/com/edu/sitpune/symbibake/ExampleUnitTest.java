@@ -1,4 +1,4 @@
-package com.example.shubham.symbibake;
+package com.edu.sitpune.symbibake;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.shubham.symbibake;
+package com.edu.sitpune.symbibake;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

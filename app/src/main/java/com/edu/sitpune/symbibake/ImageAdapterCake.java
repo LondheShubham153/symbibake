@@ -1,21 +1,22 @@
-package com.example.shubham.symbibake;
+package com.edu.sitpune.symbibake;
 
 /**
  * Created by shubham on 13/11/17.
  */
-
 import android.content.Context;
+
 import android.view.View;
 import android.view.ViewGroup;
+
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class ImageAdapterPastry extends BaseAdapter {
+public class ImageAdapterCake extends BaseAdapter {
     private Context mContext;
 
     // Constructor
-    public ImageAdapterPastry(Context c) {
+    public ImageAdapterCake(Context c) {
         mContext = c;
     }
 
