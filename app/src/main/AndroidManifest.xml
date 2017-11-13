@@ -34,6 +34,22 @@
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CookieActivity"
+            android:label="@string/title_activity_cookie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MuffinActivity"
+            android:label="@string/title_activity_muffin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PastryActivity"
+            android:label="@string/title_activity_pastry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TartActivity"
+            android:label="@string/title_activity_tart"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

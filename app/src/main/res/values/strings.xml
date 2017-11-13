@@ -110,4 +110,8 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_cookie">CookieActivity</string>
+    <string name="title_activity_muffin">MuffinActivity</string>
+    <string name="title_activity_pastry">PastryActivity</string>
+    <string name="title_activity_tart">TartActivity</string>
 </resources>

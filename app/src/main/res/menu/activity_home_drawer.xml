@@ -5,22 +5,22 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_home"
             android:title="HOME" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_cake"
             android:title="CAKE" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_cookie"
             android:title="COOKIE" />
         <item
-            android:id="@+id/nav_manag"
+            android:id="@+id/nav_muffin"
             android:title="MUFFIN" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_pastry"
             android:title="PASTRY" />
         <item
-            android:id="@+id/nav_slidshow"
+            android:id="@+id/nav_tart"
             android:title="TART AND CROISSANT" />
     </group>
 
