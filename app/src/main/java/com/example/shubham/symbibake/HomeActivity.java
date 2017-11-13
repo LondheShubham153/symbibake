@@ -1,5 +1,6 @@
 package com.example.shubham.symbibake;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -83,14 +84,24 @@ public class HomeActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_cake) {
+            Intent i =new Intent(HomeActivity.this,CakeActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_cookie) {
+            Intent i =new Intent(HomeActivity.this,CookieActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_muffin) {
+            Intent i =new Intent(HomeActivity.this,MuffinActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_pastry) {
+            Intent i =new Intent(HomeActivity.this,PastryActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_tart) {
+            Intent i =new Intent(HomeActivity.this,TartActivity.class);
+            startActivity(i);
 
         }
 

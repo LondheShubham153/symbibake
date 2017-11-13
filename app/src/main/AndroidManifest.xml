@@ -52,7 +52,8 @@
             android:label="@string/title_activity_tart"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".BuyActivity" />
-        <activity android:name=".CheckoutActivity"></activity>
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".SingleActivity"></activity>
     </application>
 
 </manifest>
