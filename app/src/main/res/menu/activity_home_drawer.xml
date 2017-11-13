@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="CAKE" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="COOKIE" />
+        <item
+            android:id="@+id/nav_manag"
+            android:title="MUFFIN" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="PASTRY" />
+        <item
+            android:id="@+id/nav_slidshow"
+            android:title="TART AND CROISSANT" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
