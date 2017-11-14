@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.3"
     defaultConfig {
-        applicationId "com.example.shubham.symbibake"
+        applicationId "com.edu.sitpune.symbibake"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
