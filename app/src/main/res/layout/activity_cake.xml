@@ -12,10 +12,3 @@
     android:stretchMode="columnWidth"
     android:gravity="center"
     />
-<TextView
-android:id="@+id/os_texts"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:textSize="25dp"
-android:textAlignment="center"
-android:layout_marginTop="2dp"/>
