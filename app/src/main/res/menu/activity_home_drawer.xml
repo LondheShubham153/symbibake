@@ -10,16 +10,16 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_cake"
-            android:title="Cake" />
+            android:title="Cakes" />
         <item
             android:id="@+id/nav_cookie"
-            android:title="Cookie" />
+            android:title="Cookies" />
         <item
             android:id="@+id/nav_muffin"
-            android:title="Muffin" />
+            android:title="Muffins" />
         <item
             android:id="@+id/nav_pastry"
-            android:title="Pastry" />
+            android:title="Pastries" />
         <item
             android:id="@+id/nav_tart"
             android:title="Tarts &amp; Croissant" />
