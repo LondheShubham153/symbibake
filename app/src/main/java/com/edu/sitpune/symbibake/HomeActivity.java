@@ -84,25 +84,20 @@ public class HomeActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_cake) {
-            Intent i =new Intent(HomeActivity.this,CakeActivity.class);
+            Intent i = new Intent(HomeActivity.this, CakeActivity.class);
             startActivity(i);
-
         } else if (id == R.id.nav_cookie) {
-            Intent i =new Intent(HomeActivity.this,CookieActivity.class);
+            Intent i = new Intent(HomeActivity.this, CookieActivity.class);
             startActivity(i);
-
         } else if (id == R.id.nav_muffin) {
-            Intent i =new Intent(HomeActivity.this,MuffinActivity.class);
+            Intent i = new Intent(HomeActivity.this, MuffinActivity.class);
             startActivity(i);
-
         } else if (id == R.id.nav_pastry) {
-            Intent i =new Intent(HomeActivity.this,PastryActivity.class);
+            Intent i = new Intent(HomeActivity.this, PastryActivity.class);
             startActivity(i);
-
         } else if (id == R.id.nav_tart) {
-            Intent i =new Intent(HomeActivity.this,TartActivity.class);
+            Intent i = new Intent(HomeActivity.this, TartActivity.class);
             startActivity(i);
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

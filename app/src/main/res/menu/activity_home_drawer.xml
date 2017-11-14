@@ -7,22 +7,22 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="HOME" />
+            android:title="Home" />
         <item
             android:id="@+id/nav_cake"
-            android:title="CAKE" />
+            android:title="Cake" />
         <item
             android:id="@+id/nav_cookie"
-            android:title="COOKIE" />
+            android:title="Cookie" />
         <item
             android:id="@+id/nav_muffin"
-            android:title="MUFFIN" />
+            android:title="Muffin" />
         <item
             android:id="@+id/nav_pastry"
-            android:title="PASTRY" />
+            android:title="Pastry" />
         <item
             android:id="@+id/nav_tart"
-            android:title="TART AND CROISSANT" />
+            android:title="Tarts &amp; Croissant" />
     </group>
 
     <item android:title="Communicate">
