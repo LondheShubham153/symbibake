@@ -22,7 +22,7 @@ public class TartActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent,
                                     View v, int position, long id){
                 // Send intent to SingleViewActivity
-                Intent i = new Intent(getApplicationContext(), SingleActivity.class);
+                Intent i = new Intent(getApplicationContext(), SingleActivityTart.class);
                 // Pass image index
                 i.putExtra("id", position);
                 startActivity(i);

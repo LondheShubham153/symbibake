@@ -94,14 +94,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 Thread myThread = new Thread(){
                     @Override
                     public void run() {
-                        try {
-                            sleep(1000);
-                            Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
-                            startActivity(intent);
-                            finish();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
+                        Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
                 };
                 myThread.start();

@@ -37,7 +37,7 @@ public class ImageAdapterCookie extends BaseAdapter {
 
         if (convertView == null) {
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(350, 350));
+            imageView.setLayoutParams(new GridView.LayoutParams(500, 500));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(8, 8, 8, 8);
         }
@@ -51,12 +51,11 @@ public class ImageAdapterCookie extends BaseAdapter {
 
     // Keep all Images in array
     public Integer[] mThumbIds = {
-            R.drawable.cake_sample1,R.drawable.cake_sample2,
-            R.drawable.cake_sample3,R.drawable.cake_sample4,
-            R.drawable.cake_sample5,R.drawable.cake_sample6,
-            R.drawable.cake_sample7,R.drawable.cake_sample8,
-            R.drawable.cake_sample9,R.drawable.cake_sample10,
-            R.drawable.cake_sample11
+            R.drawable.cookies_sample1,R.drawable.cookies_sample2,
+            R.drawable.cookies_sample3,R.drawable.cookies_sample4,
+            R.drawable.cookies_sample5,R.drawable.cookies_sample6,
+            R.drawable.cookies_sample7,R.drawable.cookies_sample8,
+            R.drawable.cookies_sample9
     };
 }
 

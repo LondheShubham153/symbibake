@@ -38,7 +38,7 @@ public class ImageAdapterCake extends BaseAdapter {
 
         if (convertView == null) {
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(550, 550));
+            imageView.setLayoutParams(new GridView.LayoutParams(500, 500));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(8, 8, 8, 8);
         }
@@ -49,11 +49,10 @@ public class ImageAdapterCake extends BaseAdapter {
         imageView.setImageResource(mThumbIds[position]);
         return imageView;
     }
-
     // Keep all Images in array
     public Integer[] mThumbIds = {
             R.drawable.cake_sample1,R.drawable.cake_sample2,
-            R.drawable.cake_sample3,
+            R.drawable.cake_sample3,R.drawable.cake_sample4,
             R.drawable.cake_sample5,R.drawable.cake_sample6,
             R.drawable.cake_sample7,R.drawable.cake_sample8,
             R.drawable.cake_sample9,R.drawable.cake_sample10,

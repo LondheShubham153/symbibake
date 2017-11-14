@@ -4,45 +4,118 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.edu.sitpune.symbibake.CheckoutActivity">
+    tools:context="com.edu.sitpune.symbibake.CheckoutActivity"
+    >
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
-        <TextView
-            android:text="Time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="1" />
-
-        <TextClock
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textClock"
-            android:layout_column="2" />
-
-    </TableRow>
-
     <TableRow>
 
-        <TextView
-            android:text="Price"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="5" />
 
         <TextView
             android:text="Items"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="5" />
+            android:layout_weight="1"
+            android:textStyle="bold"/>
 
+        <TextView
+            android:text="Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
     </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </TableRow>
+
+
+        <TableRow>
+
+
+            <TextView
+                android:text="Chocolate Muffin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="175"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:text="Banana Cookies X 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="250"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:text="Strawberry cake X 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="375"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="800"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </TableRow>
 
 
         <Button

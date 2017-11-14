@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.edu.sitpune.symbibake.Splash"
+            android:name=".Splash"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -25,35 +25,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.edu.sitpune.symbibake.LoginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
-            android:name="com.edu.sitpune.symbibake.CakeActivity"
+            android:name=".CakeActivity"
             android:label="@string/title_activity_cake"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.edu.sitpune.symbibake.HomeActivity"
+            android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.edu.sitpune.symbibake.CookieActivity"
+            android:name=".CookieActivity"
             android:label="@string/title_activity_cookie"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.edu.sitpune.symbibake.MuffinActivity"
+            android:name=".MuffinActivity"
             android:label="@string/title_activity_muffin"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.edu.sitpune.symbibake.PastryActivity"
+            android:name=".PastryActivity"
             android:label="@string/title_activity_pastry"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.edu.sitpune.symbibake.TartActivity"
+            android:name=".TartActivity"
             android:label="@string/title_activity_tart"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.edu.sitpune.symbibake.BuyActivity" />
-        <activity android:name="com.edu.sitpune.symbibake.CheckoutActivity" />
-        <activity android:name="com.edu.sitpune.symbibake.SingleActivity"></activity>
+        <activity android:name=".BuyActivity" />
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".SingleActivity" />
+        <activity android:name=".ThanksActivity"></activity>
     </application>
 
 </manifest>
