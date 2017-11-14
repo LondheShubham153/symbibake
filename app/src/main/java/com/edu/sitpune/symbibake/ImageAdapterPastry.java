@@ -51,12 +51,10 @@ public class ImageAdapterPastry extends BaseAdapter {
 
     // Keep all Images in array
     public Integer[] mThumbIds = {
-            R.drawable.cake_sample1,R.drawable.cake_sample2,
-            R.drawable.cake_sample3,R.drawable.cake_sample4,
-            R.drawable.cake_sample5,R.drawable.cake_sample6,
-            R.drawable.cake_sample7,R.drawable.cake_sample8,
-            R.drawable.cake_sample9,R.drawable.cake_sample10,
-            R.drawable.cake_sample11
+            R.drawable.pastry_sample1,R.drawable.pastry_sample2,
+            R.drawable.pastry_sample3,R.drawable.pastry_sample4,
+            R.drawable.pastry_sample5,R.drawable.pastry_sample6,
+            R.drawable.pastry_sample7
     };
 }
 
