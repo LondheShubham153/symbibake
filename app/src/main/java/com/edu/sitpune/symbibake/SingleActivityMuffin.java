@@ -10,7 +10,7 @@ public class SingleActivityMuffin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_single);
+        setContentView(R.layout.activity_singlemuffin);
         // Get intent data
         Intent i = getIntent();
 

@@ -12,7 +12,7 @@ public class CookieActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cake);
+        setContentView(R.layout.activity_cookie);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         GridView gridview = (GridView) findViewById(R.id.gridview);
@@ -21,7 +21,7 @@ public class CookieActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent,
                                     View v, int position, long id){
                 // Send intent to SingleViewActivity
-                Intent i = new Intent(getApplicationContext(), SingleActivity.class);
+                Intent i = new Intent(getApplicationContext(), SingleActivityCookie.class);
                 // Pass image index
                 i.putExtra("id", position);
                 startActivity(i);

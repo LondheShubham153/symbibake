@@ -13,7 +13,7 @@ public class TartActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cake);
+        setContentView(R.layout.activity_tart);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         GridView gridview = (GridView) findViewById(R.id.gridview);

@@ -54,6 +54,11 @@
         <activity android:name=".BuyActivity" />
         <activity android:name=".CheckoutActivity" />
         <activity android:name=".SingleActivity" />
+        <activity android:name=".SingleActivityTart" />
+        <activity android:name=".SingleActivityCookie" />
+
+        <activity android:name=".SingleActivityPastry" />
+        <activity android:name=".SingleActivityMuffin" />
         <activity android:name=".ThanksActivity"></activity>
     </application>
 
