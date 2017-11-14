@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.edu.sitpune.symbibake.Splash">
+    tools:context="com.edu.sitpune.symbibake.Splash"
+    android:background="@color/colorAccent">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="180dp" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 </android.support.constraint.ConstraintLayout>
