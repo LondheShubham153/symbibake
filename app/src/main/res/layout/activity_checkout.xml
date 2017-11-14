@@ -1,24 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.edu.sitpune.symbibake.CheckoutActivity">
 
-    <TableLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:layout_column="2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="5" />
+
+        <TextView
+            android:text="Items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="5" />
+
+    </TableRow>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place order"
+
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="397dp" />
     </TableLayout>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Place order"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="397dp" />
-</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.LinearLayoutCompat>
